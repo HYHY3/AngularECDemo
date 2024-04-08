@@ -5,7 +5,7 @@ export interface Product {
   description: string;
 }
 
-export const products = [
+export const allProducts = [
   {
     id: 1,
     name: 'Phone XL',
@@ -23,6 +23,12 @@ export const products = [
     name: 'Phone Standard',
     price: 299,
     description: ''
+  },
+  {
+    id: 4,
+    name: 'Phone 5S',
+    price: 199,
+    description: 'for company ?'
   }
 ];
 
